@@ -24,7 +24,7 @@ export class NewsItem extends Component {
             alt="..."
           />
           <div className="card-body">
-            {source}
+            {/* {source} */}
             <h5 className="card-title text-primary">{title} ...</h5>
             <p className="card-text">{description} ...</p>
             <p className="card-text">
