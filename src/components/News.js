@@ -27,7 +27,7 @@ export class News extends Component {
       page: 1,
       totalResults: 0,
     };
-    document.title = `News Monkey - ${this.capitalize(this.props.category)}`;
+    document.title = `NewsLeo - ${this.capitalize(this.props.category)}`;
   }
   async updateNews() {
     this.props.setProgress(10);
@@ -62,7 +62,7 @@ export class News extends Component {
     return (
       <div className="container my-3">
         <h1 className="text-center" style={{ margin: "35px" }}>
-          NewsMonkey - Top {this.capitalize(this.props.category)} Headline
+          NewsLeo - Top {this.capitalize(this.props.category)} Headline
         </h1>
         {this.state.loading && <Spinner />}
         <div className="row">
